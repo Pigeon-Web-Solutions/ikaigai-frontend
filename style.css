@@ -98,6 +98,119 @@
 }
 
 
+.about_area{
+    background: #fff9f9;
+    border-top: 1px solid #fff;
+}
+
+
+.ikg-services {
+    padding: 50px 0 70px 0;
+}
+.edu-section-title {
+    max-width: 920px;
+}
+.ikg-service-card {
+    background: #fffafa;
+    border-radius: 14px;
+    padding: 30px 25px;
+    height: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #e11d2e;
+    border-top: 5px solid #e11d2e;
+}
+
+.ikg-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
+
+.ikg-service-icon {
+    width: 55px;
+    height: 55px;
+    background: #e11d2e;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ikg-service-icon i {
+    font-size: 26px;
+}
+
+.ikg-service-card h3 {
+    color: #0b2c3d;
+    margin-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+}
+
+.ikg-service-card p {
+    color: #555;
+}
+
+
+.ikg-cta {
+    padding: 50px 0;
+    background: #0b2c3d;
+}
+
+.ikg-cta-box {
+    background: linear-gradient(135deg, #e11d2e, #c41624);
+    border-radius: 18px;
+    padding: 50px 40px;
+    color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+.ikg-cta h2 {
+    margin-bottom: 12px;
+}
+
+.ikg-cta p {
+    opacity: 0.95;
+    max-width: 650px;
+    color: #eee;
+}
+
+.ikg-cta-btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #e11d2e;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.ikg-cta-btn:hover {
+    background: #f1f1f1;
+    color: #c41624;
+}
+
+.ikg-cta-btn-outline {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ikg-cta-btn-outline:hover {
+    background: #ffffff;
+    color: #e11d2e;
+}
+
+
+
 .edu-footer-area{
   background: #000;
 }
@@ -171,6 +284,10 @@ h1{
 .about_content p{
     line-height: 28px;
 }
+.cta_buttons .ikg-cta-btn-outline{
+    margin-right: 10px;
+    margin-top: 20px;
+}
 }
 @media screen and (max-width: 992px) {
 .topbar{
@@ -199,6 +316,15 @@ h1{
 .about_row{
     display: flex;
     flex-direction: column-reverse;
+}
+.cta_buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cta_buttons .ikg-cta-btn-outline{
+    margin-right: 0px;
+    margin-top: 0px;
 }
 }
 
@@ -242,6 +368,13 @@ h1{
     line-height: 42px!important;
     margin-bottom: 10px!important;
     letter-spacing: -1px!important;
+}
+p{
+    font-size: 16px!important;
+    line-height: 25px!important;
+}
+.ikg-cta-box {
+    padding: 40px 20px;
 }
 }
 
