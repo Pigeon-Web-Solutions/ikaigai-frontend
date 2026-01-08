@@ -1,4 +1,5 @@
 
+
 .topbar{
     background: #01375b;  
 }
@@ -92,6 +93,9 @@
     border: 5px solid #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+.imgshadow img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
 
 .edu-footer-area{
@@ -151,6 +155,23 @@
     color: #222;
 }
 
+
+@media screen and (max-width: 1400px) {
+h2{
+    font-size: 36px!important;
+    margin-bottom: 10px!important;
+    letter-spacing: -1px!important;
+}
+h1{
+    font-size: 42px!important;
+    line-height: 48px!important;
+    margin-bottom: 10px!important;
+    letter-spacing: -1px!important;
+}
+.about_content p{
+    line-height: 28px;
+}
+}
 @media screen and (max-width: 992px) {
 .topbar{
    display: block;
@@ -174,6 +195,10 @@
 }
 .banner_main img{
    margin-top: 20px;
+}
+.about_row{
+    display: flex;
+    flex-direction: column-reverse;
 }
 }
 
@@ -206,6 +231,17 @@
 .default-btn {
     padding: 8px 15px!important;
     font-size: 16px;
+}
+h2{
+    font-size: 32px!important;
+    margin-bottom: 10px!important;
+    letter-spacing: -1px!important;
+}
+h1{
+    font-size: 36px!important;
+    line-height: 42px!important;
+    margin-bottom: 10px!important;
+    letter-spacing: -1px!important;
 }
 }
 
