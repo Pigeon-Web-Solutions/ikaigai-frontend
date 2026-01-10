@@ -112,7 +112,9 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="edu-banner-image2">
-                            <img src="assets/img/images/ikaigai-hero.jpg" alt="banner-img">
+                            <img src="assets/img/images/ikaigai-hero.jpg" alt="banner-img" class="active">
+                            <img src="assets/img/images/bnr.jpg" alt="banner-img">
+                            <img src="assets/img/images/passwd.jpg" alt="banner-img">
                         </div>
                     </div>
                 </div>
@@ -517,6 +519,20 @@
             data-cf-beacon='{"version":"2024.11.0","token":"e97d358126754c0fad9102db62fedc44","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
             crossorigin="anonymous">
         </script>
+
+        <script>
+         document.addEventListener("DOMContentLoaded", function () {
+            const images = document.querySelectorAll(".edu-banner-image2 img");
+            let currentIndex = 0;
+        
+            setInterval(() => {
+                images[currentIndex].classList.remove("active");
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].classList.add("active");
+            }, 5000); // 5 seconds
+          });
+        </script>
+
         
 </body>
 

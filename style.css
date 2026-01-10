@@ -236,6 +236,37 @@
 }
 
 
+.edu-banner-image2 {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+}
+
+/* All images */
+.edu-banner-image2 img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+}
+
+/* FIRST image visible immediately (no JS delay issue) */
+.edu-banner-image2 img:first-child {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* Active image */
+.edu-banner-image2 img.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+
 .edu-footer-area{
   background: #000;
 }
@@ -312,6 +343,9 @@ h1{
 .cta_buttons .ikg-cta-btn-outline{
     margin-right: 10px;
     margin-top: 20px;
+}
+.edu-banner-image2 {
+    height: 400px;
 }
 }
 @media screen and (max-width: 992px) {
@@ -404,8 +438,20 @@ p{
 .ikg-cta-box {
     padding: 40px 20px;
 }
+.edu-banner-image2 {
+    height: 360px;
 }
-
+}
+@media screen and (max-width: 480px) {
+.edu-banner-image2 {
+    height: 320px;
+}
+}
+@media screen and (max-width: 400px) {
+.edu-banner-image2 {
+    height: 280px;
+}
+}
 @media screen and (max-width: 380px) {
 .footer-bottom-area p{
    font-size: 14px;
