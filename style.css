@@ -326,7 +326,7 @@
 
 
 .btnmob a{
-    padding: 5px 10px!important;
+    padding: 6px 10px!important;
     font-size: 14px;
 }
 .btnmob{
@@ -343,6 +343,17 @@
 .btnmob{
     display: none;
 }
+.brdcm{
+    margin-top: 100px;
+}
+.map_section{
+    margin-bottom: 60px;
+}
+.map_section iframe{
+    border: 5px solid #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 
 
 @media screen and (max-width: 1400px) {
@@ -366,6 +377,9 @@ h1{
 }
 .edu-banner-image2 {
     height: 400px;
+}
+.brdcm{
+    margin-top: 0px;
 }
 }
 @media screen and (max-width: 992px) {
@@ -409,6 +423,8 @@ h1{
     display: block;
 }
 }
+
+
 
 @media screen and (max-width: 768px) {
 .banner_main h1{
