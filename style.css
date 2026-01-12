@@ -325,6 +325,26 @@
 }
 
 
+.btnmob a{
+    padding: 5px 10px!important;
+    font-size: 14px;
+}
+.btnmob{
+    position: absolute;
+    top: 70px;
+    left: 40%;
+}
+.nav_area.is-sticky .btnmob{
+    top: 25px;
+}
+.mean-container a.meanmenu-reveal span {
+    background: #01375b!important;
+}
+.btnmob{
+    display: none;
+}
+
+
 @media screen and (max-width: 1400px) {
 h2{
     font-size: 36px!important;
@@ -384,6 +404,9 @@ h1{
 .cta_buttons .ikg-cta-btn-outline{
     margin-right: 0px;
     margin-top: 0px;
+}
+.btnmob{
+    display: block;
 }
 }
 
