@@ -356,6 +356,106 @@
 
 
 
+/* ===== Ikigai Mission & Vision Section ===== */
+.ikigai-mv-section {
+  padding: 60px 00px;
+}
+
+
+.ikigai-mv-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ikigai-mv-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b2c3d;
+}
+
+.ikigai-mv-header h2 span {
+  color: #e11d2e;
+}
+
+.ikigai-mv-header p {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* Grid */
+.ikigai-mv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.ikigai-mv-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ikigai-mv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon */
+.ikigai-mv-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.mission-icon {
+  background: linear-gradient(135deg, #e11d2e, #ff4d5a);
+}
+
+.vision-icon {
+  background: linear-gradient(135deg, #0b2c3d, #1f4f68);
+}
+
+/* Text */
+.ikigai-mv-card h3 {
+  font-size: 22px;
+  margin-bottom: 14px;
+  color: #0b2c3d;
+}
+
+.ikigai-mv-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ikigai-mv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ikigai-mv-header h2 {
+    font-size: 28px;
+  }
+
+  .ikigai-mv-card {
+    padding: 30px 22px;
+  }
+}
+
+
+
 @media screen and (max-width: 1400px) {
 h2{
     font-size: 36px!important;
