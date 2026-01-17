@@ -439,6 +439,127 @@
   color: #4b5563;
 }
 
+
+/* Section */
+.ikg-admission-section {
+  padding: 60px 15px;
+  margin-top: 80px;
+}
+
+/* Container */
+.ikg-admission-container {
+  max-width: 800px;
+  margin: auto;
+  background: #f7f9fc;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+.ikg-admission-title {
+  color: #0a2540;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ikg-admission-subtitle {
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ikg-section-heading {
+  margin: 30px 0 15px;
+  color: #d81f26;
+  font-size: 20px;
+}
+.admission_header h2{
+    color: #d81f26;
+}
+
+/* Form Layout */
+.ikg-form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.ikg-form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.ikg-label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Inputs */
+.ikg-form-group input,
+.ikg-form-group select,
+.ikg-form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.ikg-form-group input:focus,
+.ikg-form-group select:focus,
+.ikg-form-group textarea:focus {
+  outline: none;
+  border-color: #d81f26;
+}
+
+/* Button */
+.ikg-submit-btn {
+  width: 100%;
+  background: #d81f26;
+  color: #ffffff;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ikg-submit-btn:hover {
+  background: #b9181e;
+}
+.nice-select {
+    width: 100%;
+}
+.nice-select:after {
+    height: 8px;
+    width: 8px;
+}
+@media (max-width: 992px) {
+.ikg-admission-section {
+  margin-top: 0px;
+}
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .ikg-form-row {
+    flex-direction: column;
+  }
+.ikg-form-row {
+    gap: 0px; 
+}
+  .ikg-admission-container {
+    padding: 25px;
+  }
+}
+
+.nav_area{
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .ikigai-mv-grid {
